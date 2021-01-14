@@ -77,6 +77,10 @@ https://pypi.org/project/opencv-python/3.2.0.8/
 接著他就會將你訓練好的pkl檔案引入，開啟視窗並顯示你現在即時的狀態，由於是兩秒偵測一次所以要稍等一下  
 ![](https://i.imgur.com/XL6xNRr.png)
 
+
+
+
+
 此外若出現Cuda記憶體不夠的報錯請將chrome關掉(非常有用，若還是不行可以在執行的時候打 "--net_resolution -1x224"來透過降低判斷準確度換取GPU順暢度，這樣還是不行請升級顯卡吧)，實測影片我放在檔案中了，可以參考。
 
 
